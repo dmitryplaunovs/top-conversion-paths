@@ -3,7 +3,9 @@ A [BigQuery](https://cloud.google.com/bigquery/) SQL query that can be used to v
 
 An example of the presentation of the query output:
 ![A conceptual example of the visualization of the query output](visualization.png)
-The script pulls all pages that were visited by website or app users, and converts each session into a path (e.g. ` Page 1 > Page 2 > Page 3 > Conversion)`.
+The script pulls all pages that were visited by website or app users, and converts each session into a path, e.g.:
+
+` Page 1 > Page 2 > Page 3 > Conversion`
 
 It groups some pages, removes duplicates (e.g. when there was a page refresh or a tracking bug) and removes the ones that were visited after the conversion (e.g. after the sale confirmation page), since we are only interested in paths that lead _to_ the conversion.
 
