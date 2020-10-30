@@ -36,4 +36,4 @@ The query is written in BigQuery SQL. You can either:
 
 ## Notes
 
-_This is a small project I worked on in the past, but maybe it helps anyone_ 🙂
+_This is a small project I worked on in the past, but maybe it helps someone_ 🙂
