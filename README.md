@@ -2,7 +2,8 @@
 A [BigQuery](https://cloud.google.com/bigquery/) SQL query that can be used to visualize user paths that lead to a conversion, e.g. a sale, on a website or an app.
 
 An example of the presentation of the query output:
-![A conceptual example of the visualization of the query output](visualization.png)
+<img src="visualization.png" width="750">
+
 The script pulls all pages that were visited by website or app users, and converts each session into a path, e.g.:
 
 ` Page 1 > Page 2 > Page 3 > Conversion`
@@ -35,4 +36,4 @@ The query is written in BigQuery SQL. You can either:
 
 ## Notes
 
-_This is a small project I worked on in the past, but I would be glad, if it helps anyone_ 🙂
+_This is a small project I worked on in the past, but maybe it helps anyone_ 🙂
